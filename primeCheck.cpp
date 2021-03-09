@@ -20,15 +20,12 @@ bool isPrime(int num)
 
 
 int main(){
-
-std::cout << isPrime(20);
-std::cout << isPrime(37);
-std::cout << isPrime(12);
-std::cout << isPrime(53);
-std::cout << isPrime(1);
-std::cout << isPrime(0);
-std::cout << isPrime(19);
-
-return 0;
-
+  std::cout << isPrime(20);
+  std::cout << isPrime(37);
+  std::cout << isPrime(12);
+  std::cout << isPrime(53);
+  std::cout << isPrime(1);
+  std::cout << isPrime(0);
+  std::cout << isPrime(19);
+  return 0;
 }
